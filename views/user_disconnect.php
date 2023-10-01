@@ -12,7 +12,7 @@
 <header class="global-header">
     <nav class="nav-bar" role="navigation">
         <div title="Revenir à la page d'accueil SportsTrack" class="logo">
-            <a href="https://www.strava.com/?hl=fr">
+            <a href="/">
                 <span><b>SPORTSTRACK</b></span>
             </a>
         </div>

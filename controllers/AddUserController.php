@@ -53,6 +53,7 @@ class AddUserController extends Controller {
         $dao = UserDAO::getInstance();
         if ($dao->getUserByEmail($email) !== null) {
             $this->render('error', ['message' => "Votre inscription a échoué. L'email que vous avez insérer est déjà utilisé."]);
+            return;
         }
 
         // Create a new user
