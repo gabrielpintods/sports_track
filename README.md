@@ -37,4 +37,5 @@ Le pattern **Singleton** garantit qu'une seule instance de certaines classes est
 2. Création de la base de données (à partir du répertoire `db/`) : `sqlite3 sports_track.db < create_db.sql`
 3. Lancement du serveur (à la racine du projet) : `php -S localhost:8080`
 4. Accès à l'application : http://localhost:8080
+5. Concsulter le fichier pdf du dépôt pour visualiser l'application sans l'installer
 
